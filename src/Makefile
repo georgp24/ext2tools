@@ -31,7 +31,7 @@ e2ls.exe:	e2ls.o diskio.o part.o ldisk.o e2err.o
 # 	$(CC) $(CFLAGS) -o e2dump.exe e2dump.o diskio.o part.o ldisk.o e2err.o $(EXT2FS) $(LIBS)
 
 %.o:	%.c
-	$(CC) $(CFLAGS) -I. -I.. -I../linux -c $<
+	$(CC) $(CFLAGS) -I../ext2fs -I. -I.. -I../linux -c $<
 
 clean:
 	rm -f *.o

@@ -15,6 +15,7 @@
 
 #define PFOPT_LONG  1 /* Must be 1 for compatibility with `int long_format'. */
 
+int errno; /* for djgpp */
 
 int fgetflags (const char * name, unsigned long * flags);
 int fgetversion (const char * name, unsigned long * version);
