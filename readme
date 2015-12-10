@@ -19,7 +19,7 @@ Download the package from github using the following URL:
 https://github.com/georgp24/ext2tools/archive/master.zip
 
 Unpack it and get into the ex2tools directory. In there enter "make". It
-should compile the entire source code and but the generated programs into
+should compile the entire source code and put the generated programs into
 the bin directory. No further installation is necessary, you can call the
 programs from within the bin directory. However, since the source code is
 compiled with DJGPP it needs cwsdpmi.exe in the same directory as the 
